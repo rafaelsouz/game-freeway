@@ -11,5 +11,7 @@ function draw() {
   showCar();
   moveCar();
   moveActor();
+  loopCar();
+  collisionWithActor();
   
 }

@@ -1,26 +1,35 @@
-//Car 1
-    let xCar1 = 420;
-    let yCar1;
 
-//Car 2
-    let xCar2;
-    let yCar2;
-
-//Car 3
-    let xCar3;
-    let xCar3;
-
-//All cars
-    let acell = 2;
+//Cars
+    let xCars = [600, 600, 600, 600 , 600, 600];
+    let yCars = [40,  96,  150, 210, 270, 318];
     let length = 50;
     let heigth = 40;
 
+    let acel = [6, 3.2, 4, 5, 2.5, 3];
+    
+
 function showCar(){
-    image(imgCar1, resoX - 80, resoY - 460, length, heigth)
-    image(imgCar2, resoX - 100, resoY - 400, length, heigth)
+    for(let i = 0; i < imgCars.length; i++){
+        image(imgCars[i], xCars[i], yCars[i], length, heigth)
+    }
   }
   
-  function moveCar(){
-    xCar -= 2;
-  }
+function moveCar(){
+    for(let i = 0; i < imgCars.length; i++){
+        xCars[i] -= acel[i];
+    }
+}
+
+function loopCar(){
+    for(let i = 0; i < imgCars.length; i++){
+        if (carBorder(xCars[i])){
+            xCars[i] = 600
+        }
+    }
+}
+
+function carBorder(xCar){
+    return xCar < -50
+}
+
   
