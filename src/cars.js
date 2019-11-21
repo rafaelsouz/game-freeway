@@ -5,7 +5,7 @@
     let length = 50;
     let heigth = 40;
 
-    let acel = [6, 3.2, 4, 5, 2.5, 3];
+    let acel = [5, 3.2, 5, 8, 4.5, 3];
     
 
 function showCar(){
