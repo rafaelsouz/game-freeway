@@ -20,16 +20,32 @@ function moveActor(){
         }
     }
     if (keyIsDown(LEFT_ARROW)){
-        xActor -= 3
+        if (borderLimitX()){
+            xActor -= 3
+        }else{
+            xActor += 4
+        }
     }
     if (keyIsDown(RIGHT_ARROW)){
+        if(borderLimitX()){
             xActor += 3
+        }else{
+            xActor -= 4
+        }
     }
     
 }
 
 function borderLimitY(){
-    return yActor < 366
+    if (yActor < 366){
+        return true
+    }
+}
+
+function borderLimitX(){
+    if (xActor + 3 < 465 && xActor - 3 > 0 ){
+        return true
+    }
 }
 
 function collisionWithActor(){

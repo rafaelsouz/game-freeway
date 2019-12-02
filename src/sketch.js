@@ -16,5 +16,6 @@ function draw() {
   collisionWithActor();
   showPoint();
   addPoint();
+  console.log(xActor);
   
 }

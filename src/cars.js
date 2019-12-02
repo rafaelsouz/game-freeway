@@ -1,7 +1,7 @@
 
 //Cars
     let xCars = [600, 600, 600, 600 , 600, 600];
-    let yCars = [40,  96,  150, 210, 270, 318];
+    let yCars = [40,  96,  150, 210, 260, 312];
     let length = 50;
     let heigth = 40;
 
