@@ -1,10 +1,11 @@
 <h1 align="center">
 <br>
-<img src="freeway.png" alt="FreeWay">
+<img align = 'center' src="./freeway" alt="FreeWay">
 <br>
 <br>
 Réplica do jogo FreeWay
 </h1>
+
 
 ## Para rodar o jogo
 Algumas funcionalidades do P5(carregar arquivos externos, por exemplo) funcionam como esperado quando os arquivos são colocados online via FTP ou SSH. No entanto, se você tentar visualizá-los localmente, verá algum tipo de erro de "cross-orign" no console. A solução para isso é visualizá-los usando um servidor web local.
