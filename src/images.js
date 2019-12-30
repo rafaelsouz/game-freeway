@@ -1,13 +1,3 @@
-let imgRoad;
-let imgActor;
-
-let imgCar;
-let imgCar1;
-let imgCar2;
-
-let musicTheme;
-let soundHit;
-let soundPoint;
 
 function preload(){
     imgRoad = loadImage("assets/estrada.png");
