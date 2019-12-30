@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-<img align = 'center' src="./freeway" alt="FreeWay">
+<img align = 'center' src="./freeway.png" alt="FreeWay">
 <br>
 <br>
 Réplica do jogo FreeWay
